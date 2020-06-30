@@ -8,6 +8,37 @@
 .header {
   border-bottom: 1px solid #253441 !important;
 }
+.profile-images{
+  max-height: 300px;
+}
+
+.hero-profile{
+  position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    max-width: 598px;
+    object-fit: cover;
+}
+.user-image{
+  border: 2px solid #253441;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  top: -50px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+#btn-editar{
+  top: -125px;
+  left: 70%;
+  max-width: 100px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 2;
+}
 
 .father-content {
   border-left: 1px solid #253441 !important;
@@ -260,3 +291,4 @@
     justify-content: flex-end !important;
   }
 }
+
