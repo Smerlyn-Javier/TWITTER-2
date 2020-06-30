@@ -21,3 +21,38 @@
 .user-item:hover{
   background-color: #1D2D3E;
 }
+.pluma{
+  display: none;
+}
+
+// MEDIA QUERYS
+@media only screen and (max-width: 1024px ){
+  .menu-item-text {
+   display: none;
+  }
+  .user-name{
+    display: none;
+  }
+  .user-icon{
+    display: none;
+  }
+  .button-text{
+    display: none;
+  }
+  .twettear-btn{
+    width: 54px;
+  }
+  #item-menu-r{
+    justify-content: flex-end !important;
+  }
+  #btn-tweet{
+    margin-left: 60%;
+  }
+  #user-item{
+    justify-content: flex-end !important;
+  }
+  .pluma{
+    display: flex;
+  }
+}
+
