@@ -6,12 +6,14 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ContentComponent } from './components/content/content.component';
+import { AuthComponent } from './components/auth/auth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SidebarComponent,
-    ContentComponent
+    ContentComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,
